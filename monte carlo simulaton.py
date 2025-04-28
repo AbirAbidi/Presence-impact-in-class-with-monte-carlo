@@ -25,6 +25,10 @@ for simulation in range(nbr_simulation):
         clarte = random.uniform(*taux_clarte_prof)
         comprendre_seule = random.uniform(*range_comprendre_seule_maison)
         
+        #this logic right here needs to be updated why abir ?
+        # well cuz presence and concentration are related and clarte and comprendre_seule are too ; so u need to add like a link or sth
+        
+        
         if ma_presence <= taux_presence:
             knowledge_gained_course += 3  
             
